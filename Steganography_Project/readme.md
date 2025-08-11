@@ -62,8 +62,8 @@ This project is ideal for educational purposes and demonstrates secure data hidi
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/steganography-web-app.git
-cd steganography-web-app
+git clone git clone [https://github.com/Deepakseenu/Data_Masking_using_Steganography]
+cd Data_Masking_using_Steganography
 
 2. **Install the dependencies**
 
