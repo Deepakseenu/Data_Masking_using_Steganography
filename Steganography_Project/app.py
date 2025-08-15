@@ -18,7 +18,7 @@ app.config['JWT_ACCESS_TOKEN_EXPIRES'] = timedelta(minutes=5)  # Token expires i
 jwt = JWTManager(app)
 
 # MongoDB Configuration
-MONGO_URL = "mongodb+srv://Ayyanagouda:7022@cluster0.bttrl.mongodb.net/taskm"
+MONGO_URL = "YOUR_MONGODB_URL"
 client = MongoClient(MONGO_URL)
 db = client['taskm']
 users_collection = db['users']
@@ -258,4 +258,5 @@ def extract():
 
 
 if __name__ == '__main__':
+
     app.run(debug=True)
